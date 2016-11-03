@@ -320,6 +320,8 @@ header::before {
         #recipe-wrapper .recipe .text-recipe .ready span:first-child {
           background: url(../img/field.jpg) no-repeat;
           background-size: cover;
+          -webkit-box-shadow: -5px 5px 15px #bda796;
+          -moz-box-shadow: -5px 5px 15px #bda796;
           box-shadow: -5px 5px 15px #bda796;
           display: inline-block;
           padding: 32px 52px;
@@ -681,6 +683,8 @@ header::before {
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         border-radius: 50%;
+        -webkit-box-shadow: 0 5px 10px #8e7338;
+        -moz-box-shadow: 0 5px 10px #8e7338;
         box-shadow: 0 5px 10px #8e7338; }
     #sandwich-wrapper .sandwich-menu li:first-child {
       margin: 0; }
