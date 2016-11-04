@@ -12,27 +12,54 @@
     <!--[if lt IE 9]>
     <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
     <!--header start-->
+    <div class="navigation-mobile hidden-md hidden-lg">
+        <div class="mobile-wrapper">
+            <ul>
+                <li><a href="#">Welcome</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Reservations</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <header>
         <div class="nav-wrapper">
             <div class="container">
                 <div class="row">
                     <nav>
-                        <div class="col-lg-2 col-md-2 logo">
+                        <div class="col-lg-2 col-md-2 сol-sm-12 col-xs-12 logo">
                             <a href="#">Gustoso</a>
+
+                            <span id="cross" class="hidden-lg hidden-md">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            </span>
                         </div>
-                        <ul class="col-lg-8 col-md-8 menu">
+                        <ul class="col-lg-8 col-md-8 menu hidden-sm hidden-xs">
                             <li><a href="#">Welcome</a></li>
                             <li><a href="#">Menu</a></li>
                             <li><a href="#">Reservations</a></li>
                             <li><a href="#">News</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
-                        <ul class="col-lg-1 col-lg-offset-1 social">
+                        <ul class="col-lg-1 col-lg-offset-1 social hidden-sm hidden-xs">
                             <li><a href="#">&nbsp;</a></li>
                             <li><a href="#">&nbsp;</a></li>
                             <li><a href="#">&nbsp;</a></li>
@@ -173,21 +200,21 @@
                 <div class="col-lg-3 col-md-4">
                     <ul class="sandwich-menu">
                         <li>
-                          <img src="img/san_1.jpg" alt="san_1" />
+                            <img src="img/san_1.jpg" alt="san_1" />
                             <span>Class aptent</span>
                             <p>
                                 Quot alienum persecuti ut eam, nam ad atqui primis nusquam.
                             </p>
                         </li>
                         <li>
-                          <img src="img/san_2.jpg" alt="san_2" />
+                            <img src="img/san_2.jpg" alt="san_2" />
                             <span>Nulla eget</span>
                             <p>
                                 Quot alienum persecuti ut eam, nam ad atqui primis nusquam.
                             </p>
                         </li>
                         <li>
-                          <img src="img/san_3.jpg" alt="san_3" />
+                            <img src="img/san_3.jpg" alt="san_3" />
                             <span>Sed nibha purus</span>
                             <p>
                                 Quot alienum persecuti ut eam, nam ad atqui primis nusquam.
@@ -196,48 +223,49 @@
                     </ul>
                 </div>
                 <div class="col-lg-8 col-lg-offset-1 col-md-8">
-                  <div class="cook-wrapper">
-                    <img src="img/sandwich.jpg" alt="" />
-                    <a href="#">Full recipe</a>
-                    <ul class="menu_sandwich">
-                      <li>
-                        prep <br><span class="minutes">15</span><br> <span>mins</span>
-                      </li>
-                      <li>
-                        cook <br><span class="minutes">35</span><br> <span>mins</span>
-                      </li>
-                      <li>
-                        ready in <br><span class="minutes">50</span><br> <span>mins</span>
-                      </li>
-                    </ul>
-                  </div>
+                    <div class="cook-wrapper">
+                        <img src="img/sandwich.jpg" alt="" />
+                        <a href="#">Full recipe</a>
+                        <ul class="menu_sandwich">
+                            <li>
+                                prep <br><span class="minutes">15</span><br> <span>mins</span>
+                            </li>
+                            <li>
+                                cook <br><span class="minutes">35</span><br> <span>mins</span>
+                            </li>
+                            <li>
+                                ready in <br><span class="minutes">50</span><br> <span>mins</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <footer>
-      <div class="container">
-        <div class="row">
-          <ul class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
-          <li><a href="#">our menu</a></li>
-          <li><a href="#">gallery</a></li>
-          <li><a href="#">culture</a></li>
-          </ul>
-          <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
-            <a href="#" class="foot-logo">Gustoso</a>
-          </div>
-          <ul class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
-          <li><a href="#">events</a></li>
-          <li><a href="#">catering</a></li>
-          <li><a href="#">visit us</a></li>
-          </ul>
+        <div class="container">
+            <div class="row">
+                <ul class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
+                    <li><a href="#">our menu</a></li>
+                    <li><a href="#">gallery</a></li>
+                    <li><a href="#">culture</a></li>
+                </ul>
+                <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
+                    <a href="#" class="foot-logo">Gustoso</a>
+                </div>
+                <ul class="col-lg-5 col-md-5 col-sm-12 col-sm-12">
+                    <li><a href="#">events</a></li>
+                    <li><a href="#">catering</a></li>
+                    <li><a href="#">visit us</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </footer>
     <script src="js/jquery.min.js" charset="utf-8"></script>
     <script src="js/swiper.min.js" charset="utf-8"></script>
     <script src="js/bootstrap.min.js" charset="utf-8"></script>
     <script src="js/slider.js" charset="utf-8"></script>
+    <script src="js/navigation_mobile.js" charset="utf-8"></script>
 </body>
 
 </html>

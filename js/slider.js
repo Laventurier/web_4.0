@@ -27,14 +27,12 @@ $('.nav-tab').click(function () {
     $('.dish').animate({
       left:width+3
     },500);
-    return isHide=true;
+    isHide=true;
   }else{
     $('.dish').animate({
       left:0
     },500);
-    return isHide=false;
+    isHide=false;
   }
-
-
 })
 });
